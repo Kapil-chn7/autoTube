@@ -1,0 +1,47 @@
+/autotube/src/main/resources/client_secrets.json
+/autotube/src/main/resources/application.properties
+# Maven build output
+
+/target/
+
+
+# Maven's local repository (don't track local dependencies)
+
+/.m2/
+
+
+# IDE-specific files
+
+.idea/
+
+*.iml
+
+*.classpath
+
+*.project
+
+
+# Eclipse project files
+
+/.settings/
+
+/.classpath
+
+/.project
+
+
+# IntelliJ IDEA project files
+
+*.iws
+
+*.ipr
+
+*.iml
+
+
+# Operating system-specific files
+
+.DS_Store
+
+Thumbs.db
+

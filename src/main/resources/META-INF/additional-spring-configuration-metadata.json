@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "youtube.application.auth_uri",
+      "type": "java.lang.String",
+      "description": "The URL endpoint used for initiating the OAuth 2.0 authentication process, where the user is redirected to grant access to the YouTube application."
+    },
+    {
+      "name": "youtube.application.token_uri",
+      "type": "java.lang.String",
+      "description": "The URL endpoint used to exchange the authorization code for an access token, enabling authenticated access to YouTube APIs."
+    },
+    {
+      "name": "youtube.application.project_id",
+      "type": "java.lang.String",
+      "description": "The unique identifier of the Google Cloud project associated with the YouTube application, used to link the application to its configurations in the Google Cloud Console."
+    },
+    {
+      "name": "youtube.application.clientid",
+      "type": "java.lang.String",
+      "description": "The unique client identifier assigned to the YouTube application during the OAuth 2.0 registration process, used to authenticate the application with Google services."
+    },
+    {
+      "name": "youtube.application.secret",
+      "type": "java.lang.String",
+      "description": "The client secret generated alongside the client ID, used to securely authenticate the YouTube application during token exchanges in the OAuth 2.0 flow."
+    },
+    {
+      "name": "youtube.application.auth_provider_x509_cert_url",
+      "type": "java.lang.String",
+      "description": "The URL that provides the X.509 public key certificates for verifying the authenticity of the tokens issued by Google's OAuth 2.0 authorization server."
+    }
+  ]
+}
