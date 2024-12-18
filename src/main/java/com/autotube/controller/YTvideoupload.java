@@ -24,6 +24,7 @@ public class YTvideoupload {
 	 @GetMapping("/authorize")
 	    public RedirectView authorize() {
 	        String viewUrl = Auth.getAuthorizationUrl();
+	        System.out.println(viewUrl);
 	        return new RedirectView(viewUrl);
 	    }
 
@@ -34,7 +35,7 @@ public class YTvideoupload {
 	        System.out.println("this is the tokenResponse "+tokenResponse);
 	        
 	        ClassLoader classLoader = YTvideoupload.class.getClassLoader(); 
-	        URL resource = classLoader.getResource("10secondVideo.mp4");
+	        URL resource = classLoader.getResource("horrorstory.mp4");
 	        if (resource != null) {
 	            File videoFile = new File(resource.getFile());
 	            String videoId = YouTubeService.uploadVideo(credential, videoFile, "Video Title", "Video Description");

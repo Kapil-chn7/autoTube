@@ -102,7 +102,7 @@ public class YouTubeService {
         // Define video metadata
         Video videoObject = new Video();
         VideoStatus status = new VideoStatus();
-        status.setPrivacyStatus("private"); // or "public" or "unlisted"
+        status.setPrivacyStatus("private"); 
         videoObject.setStatus(status);
 
         VideoSnippet snippet = new VideoSnippet();
